@@ -17,7 +17,8 @@ will handles from small to large projects in a effecient speed. Git doesn't requ
  1. once we initialize git(or version control), we call it a repository 
 
  2 .edit files (save along the way)
-3. add files (to the stage)
+ 
+3 add files (to the stage)
 
  4.commit them with a message
 
@@ -104,6 +105,7 @@ it create an empty Git repository or reinitialize an existing one .
 ###Removing
  
  When moving a repository you have to use `rm -rf`then the name of the repository.
+ 
 
 
 
