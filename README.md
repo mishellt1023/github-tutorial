@@ -11,7 +11,7 @@
 will handles from small to large projects in a effecient speed. Git doesn't require github.
 
   _Runs in the command line_ 
-  ### Basic Workflow
+### Basic Workflow
  You have a directory(folder) or files: 
  
  1. once we initialize git(or version control), we call it a repository 
@@ -26,8 +26,8 @@ will handles from small to large projects in a effecient speed. Git doesn't requ
 
 **What is Github?**
 
-Github stores your code in a cloud and visually track any changes made.Also it could be seen by others on the website [Github.com](github.com)
-which is connected to the cloud:
+Github stores your code in a cloud and visually track any changes made.Also it could be seen by others
+on the website [Github.com](github.com)which is connected to the cloud:
 
 1.store code in the cloud 
 
@@ -74,7 +74,6 @@ then commited with a short and specific message. Then do `git push` for the file
 ---
 ## Workflow & Commands
 
-##**Vocabulary**
 
 1._git init_ // initializes git in our directory called a repository for version control
 
@@ -98,9 +97,13 @@ into your remote repo (up to the cloud: Github)
 ---
 ## Error handling
 
-When having a error you don't have to panic because there are ways to solve your error 
+When having a error you don't have to panic because there are ways to solve your problems.One of the problems that 
+we have as using c9.io is that sometimes we just put `git init` in a wrong repository.So what `git init`does is that
+it create an empty Git repository or reinitialize an existing one .
 
-
+###Removing
+ 
+ When moving a repository you have to use `rm -rf`then the name of the repository.
 
 
 
