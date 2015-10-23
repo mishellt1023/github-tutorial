@@ -1,0 +1,187 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>GitHub Tutorial</title>
+  <meta name="description" content="It’s just the beGITning">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">GitHub Tutorial</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">It’s just the beGITning</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/mishellt1023/github-tutorial/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/mishellt1023/github-tutorial/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/mishellt1023/github-tutorial" class="code">View GitHub Tutorial on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<h3>
+<a id="by-mishell-torres" class="anchor" href="#by-mishell-torres" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong><em>By Mishell Torres</em></strong>
+</h3>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong>What is Git?</strong></p>
+
+<p>Git is a "version control"which keeps the "snapshots"of a code. Git also runs in a command line which
+will handles from small to large projects in a effecient speed. Git doesn't require github.</p>
+
+<p><em>Runs in the command line</em> </p>
+
+<h3>
+<a id="basic-workflow" class="anchor" href="#basic-workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Workflow</h3>
+
+<p>You have a directory(folder) or files: </p>
+
+<ol>
+<li>
+<p>once we initialize git(or version control), we call it a repository </p>
+
+<p>2 .edit files (save along the way)</p>
+</li>
+</ol>
+
+<p>3 add files (to the stage)</p>
+
+<p>4.commit them with a message</p>
+
+<p>5.gti push in order to submit your project to the cloud.</p>
+
+<p><strong>What is Github?</strong></p>
+
+<p>Github stores your code in a cloud and visually track any changes made.Also it could be seen by others
+on the website <a href="github.com">Github.com</a>which is connected to the cloud:</p>
+
+<p>1.store code in the cloud </p>
+
+<p>2.visually track changes</p>
+
+<p>3.easily collaborate on files</p>
+
+<p>4.Requires Git </p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h3>
+<a id="what-is-the-ssh-key" class="anchor" href="#what-is-the-ssh-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is the SSH Key?</h3>
+
+<p>A SSH key stands for Secure Socket Shell is a secures the remotes from the computers,
+but if you fork their repository you will be able to clone it and make it yours.</p>
+
+<h3>
+<a id="what-is-git-config" class="anchor" href="#what-is-git-config" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is git config?</h3>
+
+<p>Git config is when you are configuring you username and email in order to connect it to github.
+You can specify Git configuration settings with the <code>git config</code> command.
+One of the first things you did was set up your name and email address when making your first repository
+you need use::
+    <code>git config --global user.name “First Last”</code>
+    <code>git config --global user.email “username@hstat.org”</code>
+  After using git config you would be able to connect it to github.</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>When making a new repository you need to go to <a href="github.com">github</a> then:</p>
+
+<p>1.At the top right corner there is a  <strong>+</strong> </p>
+
+<p>2.Click New repository.</p>
+
+<p>3.Then type a name for your repository</p>
+
+<p>4.Click "Create repository".</p>
+
+<p>And then you could go back to <a href="c9.io">cloud 9</a>then you could do <code>git add</code>in order to add your file to github 
+then commited with a short and specific message. Then do <code>git push</code> for the file to go up to the cloud(github)</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>1.<em>git init</em> // initializes git in our directory called a repository for version control</p>
+
+<p>2.<em>git status</em> // is use to check were you at and also to see what you are missing or to check what you did
+in order to get to that place.(it will be red if you are missing a step)</p>
+
+<p>3.<em>git add file.ext</em> // add the file(s) to the stage (for example:"README.md" to be committed, after you do <code>git status</code></p>
+
+<p>4.<em>git status</em> // after doing step 3 you do <code>git status</code> because you have to check if your file has been added
+(then the files name would  be green)</p>
+
+<p>5.<em>git commit -m "short and specific message"</em>//git commit takes a snapshots of the file by adding a short and specific message.</p>
+
+<p>6.<em>git push</em> // after going<code>git commit</code> you do <code>git push</code> because you are sending your commits from your local repo 
+into your remote repo (up to the cloud: Github)</p>
+
+<p>7.<em>git pull</em>//would pull or bring down any changes that someone made,from the remote repository down to your local repository</p>
+
+<hr>
+
+<h2>
+<a id="error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Error handling</h2>
+
+<p>When having a error you don't have to panic because there are ways to solve your problems.One of the problems that 
+we have as using c9.io is that sometimes we just put <code>git init</code> in a wrong repository.So what <code>git init</code>does is that
+it create an empty Git repository or reinitialize an existing one .</p>
+
+<h3>
+<a id="removing" class="anchor" href="#removing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Removing</h3>
+
+<p>When moving a repository you have to use <code>rm -rf</code>then the name of the repository.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/mishellt1023" class="avatar"><img src="https://avatars0.githubusercontent.com/u/14983384?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/mishellt1023">mishellt1023</a> maintains <a href="https://github.com/mishellt1023/github-tutorial">GitHub Tutorial</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/mishellt1023/github-tutorial/tarball/master" class="tar">tar</a><a href="https://github.com/mishellt1023/github-tutorial/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
